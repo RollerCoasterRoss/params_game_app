@@ -1,0 +1,9 @@
+name_json = {
+            message: @my_name,
+            }
+            
+if @alt_message
+  name_json[:alt_message] = @alt_message
+end
+
+name_json
